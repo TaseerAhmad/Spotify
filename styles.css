@@ -229,19 +229,15 @@ a:hover {
 @media screen and (max-width: 480px) {
     #top-bar {
         flex-direction: column;
-        padding-left: 10%;
-        padding-right: 10%;
         align-items: flex-start;
-        padding-left: 0%;
-        padding-right: 0%;
         gap: 0rem;
-
     }
 
     #top-bar-logo-btn {
-        width: auto;
+        width: 100%;
         padding: 5%;
         margin-left: 0%;
+        justify-content: flex-start;
     }
 
     #top-bar-logo-btn>img {
@@ -254,8 +250,8 @@ a:hover {
 
     #top-bar-right-btns {
         align-items: center;
-        padding-left: 10px;
-        padding-right: 10px;
+        justify-content: center;
+        margin: auto;
         gap: 10px;
     }
 }
