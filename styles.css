@@ -1,0 +1,232 @@
+@media screen and (max-width: 500px) {
+    
+}
+
+
+body {
+    margin: 0;
+    font-family: "Gotham-Medium", sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1DB954;
+}
+
+@font-face {
+    font-family: "Gotham Medium";
+    src: url("assets/Gotham\ Medium.otf");
+}
+
+#top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: auto;
+    height: 5rem;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#top-bar-logo-btn {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    margin-left: auto;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#top-bar-right-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+
+#container-one {
+    display: flex;
+    flex-direction: row;
+    background-color: #b49bc8;
+    width: auto;
+    height: 34.5rem;
+}
+
+#container-two {
+    display: flex;
+    flex-direction: row;
+    background-color: #2941ab;
+    width: auto;
+    height: 36rem;
+}
+
+#container-one>div {
+    display: flex;
+    flex-direction: column;
+}
+
+#art-img {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+}
+
+#container-one-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+#container-two {
+    background-image: url("assets/art_two.svg");
+}
+
+#container-two-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+/* 
+    CONTAINER 1 START
+*/
+#container-one-left-item-one {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin: 16px 0px 32px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+#container-one-left-item-two {
+    font-size: 58px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 576px) {
+    #container-one-left-item-three {
+        font-size: 14px;
+    }
+}
+
+#container-one-left-item-three {
+    font-size: 24px;
+    width: auto;
+    font-weight: 500;
+    margin: auto;
+    padding: 0px;
+    max-width: 100%;
+    letter-spacing: 0.25px;
+    line-height: 1.5;
+}
+
+/*Change to relative*/
+#container-one-left>button {
+    width: 284px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    outline: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    outline: 0;
+    border-radius: 2rem;
+    border: none;
+}
+
+/* 
+    CONTAINER 1 END
+*/
+
+/* 
+    CONTAINER 2 START 
+*/
+#container-two-left-item-one {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin: 16px 0px 32px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #1ed760;
+}
+
+#container-two-left-item-two {
+    font-size: 58px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #1ed760;
+}
+
+#container-two-left-item-three {
+    font-size: 24px;
+    margin-bottom: 0px;
+    width: auto;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    letter-spacing: 0.25px;
+    line-height: 1.5;
+    color: #1ed760;
+}
+
+#container-two-left>button {
+    width: 284px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #1ed760;
+    color: #2941ab;
+    outline: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    outline: 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* 
+    CONTAINER 2 END
+ */
+
+#bottom-bar {
+    background-color: black;
+    width: auto;
+    height: 32rem;
+}
+
+.top-bar-auth-btn {
+    color: #d9dadc
+}
+
+.container-btns:hover {
+    transform: scale(1.04);
+    background-color: var(--background-highlight,#2be76d); 
+}
