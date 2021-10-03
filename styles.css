@@ -239,7 +239,9 @@ a:hover {
     }
 
     #top-bar-logo-btn {
+        width: auto;
         padding: 5%;
+        margin-left: 0%;
     }
 
     #top-bar-logo-btn>img {
@@ -252,8 +254,8 @@ a:hover {
 
     #top-bar-right-btns {
         align-items: center;
-        padding-left: 14px;
-        padding-right: 14px;
-        gap: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
     }
 }
