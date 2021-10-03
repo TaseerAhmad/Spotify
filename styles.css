@@ -54,7 +54,7 @@ a:hover {
     flex-direction: row;
     background-color: #b49bc8;
     width: auto;
-    height: 34.5rem;
+    height: auto;
 }
 
 #container-two {
@@ -116,12 +116,6 @@ a:hover {
     max-width: 100%;
     font-weight: 900;
     line-height: 1.2;
-}
-
-@media screen and (max-width: 576px) {
-    #container-one-left-item-three {
-        font-size: 14px;
-    }
 }
 
 #container-one-left-item-three {
@@ -253,5 +247,24 @@ a:hover {
         justify-content: center;
         margin: auto;
         gap: 10px;
+    }
+
+    #container-one {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #container-one-left-item-two {
+        font-size: 2.625rem;
+    }
+
+    #container-one-left-item-three {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+
+    #art-img {
+        width: auto;
+        height: auto;
     }
 }
