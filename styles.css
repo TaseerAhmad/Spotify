@@ -31,11 +31,17 @@ a:hover {
 #top-bar-logo-btn {
     display: flex;
     align-items: center;
-    /* flex-wrap: nowrap; */
     gap: 0.5rem;
     margin-left: auto;
     font-size: larger;
     font-weight: bolder;
+    margin: 2%;
+    padding-left: 5%;
+}
+
+#top-bar-logo-btn>img {
+    width: 12%;
+    height: 12%;
 }
 
 #top-bar-right-btns {
@@ -46,6 +52,7 @@ a:hover {
     gap: 2rem;
     font-size: smaller;
     font-weight: 600;
+    padding-right: 3%;
 }
 
 
@@ -73,14 +80,14 @@ a:hover {
 #art-img {
     width: 400px;
     height: 400px;
-    margin: 50px;
+    margin: 5%;
 }
 
 #container-one-left {
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
-    margin-top: 80px;
+    margin-left: 8%;
+    margin-top: 5%;
     gap: 20px;
 }
 
@@ -103,7 +110,7 @@ a:hover {
     font-size: 14px;
     text-align: left;
     letter-spacing: 0.5px;
-    margin: 16px 0px 32px;
+    margin: 0px 0px 32px;
     font-weight: 600;
     line-height: 16px;
 }
@@ -113,7 +120,6 @@ a:hover {
     width: auto;
     margin: 0px;
     padding: 0px;
-    max-width: 100%;
     font-weight: 900;
     line-height: 1.2;
 }
@@ -123,7 +129,6 @@ a:hover {
     width: auto;
     font-weight: 500;
     margin: auto;
-    padding: 0px;
     max-width: 100%;
     letter-spacing: 0.25px;
     line-height: 1.5;
@@ -134,6 +139,7 @@ a:hover {
     width: 284px;
     height: 60px;
     margin-top: 20px;
+    margin-bottom: 5%;
     background-color: black;
     color: white;
     outline: none;
@@ -245,7 +251,9 @@ a:hover {
     #top-bar-right-btns {
         align-items: center;
         justify-content: center;
+        padding: 6px;
         margin: auto;
+        font-size: x-small;
         gap: 10px;
     }
 
@@ -254,8 +262,15 @@ a:hover {
         flex-direction: column;
     }
 
+    #container-one-left {
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
     #container-one-left-item-two {
         font-size: 2.625rem;
+        line-height: 1.0;
     }
 
     #container-one-left-item-three {
